@@ -2,8 +2,24 @@
 
 MEMORY:
 
-TCMalloc , A very fast threadsafe malloc implementation.
-https://code.google.com/p/gperftools/
+	TCMalloc , A very fast threadsafe malloc implementation.
+	https://code.google.com/p/gperftools/
 
-HOARD , Another fast malloc
-http://www.hoard.org/download-hoard/
+	HOARD , Another fast malloc
+	http://www.hoard.org/download-hoard/
+
+GCC: Newest
+
+R: Newest
+
+BLAS: OpenBLAS
+GSL : compiled/linked against OpenBLAS
+
+PYTHON:
+	python2.7
+	pip
+	numpy (linked against OpenBLAS)
+	scipy
+	ipython
+	ipython notebook server
+	scikit-learn
