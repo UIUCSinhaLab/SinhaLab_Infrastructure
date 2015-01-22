@@ -1,0 +1,11 @@
+
+Currently, the process for bootstrapping our infrastructure is to create a shadow-linux install
+
+GCC 4.9.2
+newer binutils (gcc creates binaries that the old LD doesn't like)
+ruby
+git
+
+with those, it becomes possible to install Linux Homebrew which will hopefully do the rest of the work.
+( https://github.com/Homebrew/linuxbrew#installation )
+
